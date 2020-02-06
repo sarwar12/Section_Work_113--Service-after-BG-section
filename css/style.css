@@ -1,0 +1,80 @@
+/* Main CSS Start */
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	font-family: sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+a:focus, input:focus, teaxarea:focus, button:focus{outline: 0 solid;}
+a:hover{
+	text-decoration: none;
+}
+.section-padding{padding: 80px 0;}
+/* Main CSS Stop */
+/* ===  Service after BG Section CSS Start === */
+.section-title h2 {
+  position: relative;
+  z-index: 1;
+  font-size: 35px;
+}
+.section-title h2:before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 0;
+  height: 100%;
+  width: 5px;
+  background-color: #ffce44;
+}
+.section-title {
+  margin-bottom: 40px;
+}
+.service-icon {
+  color: #ffce44;
+  font-size: 50px;
+}
+.single-service-box h3 {
+  color: #4555b9;
+}
+.single-service-box {
+  margin-bottom: 40px;
+}
+.bordered-box {
+  border: 7px solid #ffce46;
+  padding: 40px;
+  margin-left: 30px;
+  margin-top: 100px;
+  margin-right: 100px;
+  position: relative;
+}
+.bordered-box-img {
+  margin-top: -140px;
+  margin-bottom: 40px;
+  margin-right: -140px;
+  width: 470px;
+  max-width: 140%;
+  height: 300px;
+}
+.bordered-box-btn {
+  position: absolute;
+  transform: rotate(270deg);
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4555b9;
+  font-size: 18px;
+  bottom: 46px;
+  right: -100px;
+}
+.bordered-box-btn i.fas {
+  margin-right: 6px;
+}
+/* ===  Service after BG Section CSS Stop === */
